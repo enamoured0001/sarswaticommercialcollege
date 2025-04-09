@@ -132,10 +132,10 @@ export default function HomePage() {
       <section id="courses" className="space-y-4 px-6">
         <h2 className="text-2xl font-semibold">Courses Offered</h2>
         <div className="grid md:grid-cols-2 gap-4">
-          {["Hindi Stenography", "English Stenography", "Hindi Typing", "English Typing"].map((course, i) => (
+          {["Hindi Stenography",  "Hindi Typing","English Stenography", "English Typing"].map((course, i) => (
             <div key={i} className="p-4 bg-white rounded-lg shadow hover:scale-105 hover:shadow-2xl transition duration-300">
               <h3 className="text-xl font-semibold text-purple-700">{course}</h3>
-              <p>Duration: {i % 2 === 0 ? "6 months" : "3 months"}</p>
+              <p>Duration: {i % 2 === 0 ? "1 year" : "6 months"}</p>
               <p>Eligibility: {i % 2 === 0 ? "12th Pass" : "Basic Knowledge"}</p>
             </div>
           ))}
