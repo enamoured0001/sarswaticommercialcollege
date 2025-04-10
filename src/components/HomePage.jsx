@@ -18,6 +18,7 @@ import Gallery from "./Gallery";
 
 
 
+
 export default function HomePage() {
   const [menuOpen, setMenuOpen] = useState(false);
   const studentData = [
@@ -45,6 +46,7 @@ export default function HomePage() {
         {/* Navbar */}
         <nav className="p-6 bg-purple-800 text-white shadow-lg sticky top-0 z-80">
         <div className="flex items-center justify-between">
+          <img src="/logo.png" alt="Sarswati College Logo" className="h-10 w-10 rounded-full" />
           <div className="text-2xl font-bold">Sarswati College</div>
           <div className="md:hidden">
             <button
