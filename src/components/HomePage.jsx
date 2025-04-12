@@ -12,7 +12,7 @@ import student6 from "../assets/student6.png";
 import student7 from "../assets/student7.png";
 import student8 from "../assets/student8.png";
 import student9 from "../assets/student9.png";
-import student10 from "../assets/student10.jpg;
+import student10 from "../assets/student10.jpg";
 import Gallery from "./Gallery";
 
 
