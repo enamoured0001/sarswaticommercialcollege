@@ -12,6 +12,7 @@ import student6 from "../assets/student6.png";
 import student7 from "../assets/student7.png";
 import student8 from "../assets/student8.png";
 import student9 from "../assets/student9.png";
+import student10 from "../assets/student10.jpg;
 import Gallery from "./Gallery";
 
 
@@ -22,6 +23,7 @@ import Gallery from "./Gallery";
 export default function HomePage() {
   const [menuOpen, setMenuOpen] = useState(false);
   const studentData = [
+     { name: "Hari(Nanu)", image: student10, department: "SSC grade c" },
     { name: "Sachin Kumar", image: student1, department: "SSC grade d" },
     { name: "vinay kumar", image: student2, department: "ssc grade d" },
     { name: "Mukesh sukharalia", image: student3, department: "ssc grade d" },
